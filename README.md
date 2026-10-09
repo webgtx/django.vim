@@ -1,24 +1,33 @@
 # django.vim
 
-A classic dark forest green color scheme for Vim and Neovim, inspired by Django's visual identity and the iconic TextMate theme.
+A deep forest green color scheme for Vim and Neovim based on the Windows Terminal **Django** palette.
 
 ## Palette
 
-| Element | Hex | Preview / Role |
+- **Background:** `#0b2f20` (Classic Django deep forest green)
+- **Selection / Active:** `#245032` (Forest green)
+- **Foreground:** `#f8f8f8` (Off-white)
+- **Cursor / Accents:** `#336442` (Muted forest cursor)
+- **Green (Strings / Adds):** `#9df39f` / `#73da70`
+- **Yellow (Keywords / Statements):** `#ffe862` / `#ffff94`
+- **Orange / Red (PreProc / Accents):** `#fd6209` / `#ff943b`
+- **Cyan (Special / Delimiters):** `#cfffd1`
+- **Comments:** `#568264` (Forest sage)
+
+| Element | Hex | Role |
 | :--- | :--- | :--- |
-| **Background** | `#0b2f20` | Classic Django deep dark green |
-| **Foreground** | `#f8f8f8` | Off-white |
-| **Selection / Active** | `#245032` | Forest green |
-| **Cursor / Accent** | `#7cf0ad` | Bright mint |
-| **Strings** | `#87bb9e` | Sage / mint green |
-| **Keywords / Statements** | `#ffe862` | Warm bright yellow |
-| **Functions / Methods** | `#fec758` | Warm amber gold |
-| **Types / Classes** | `#96dd3b` | Vibrant lime green |
-| **Numbers / Floats** | `#eb939a` | Soft rose |
-| **Constants** | `#497958` | Muted moss green |
-| **PreProc / Decorators** | `#aa5507` | Rust orange |
-| **Special / Variables** | `#fb9a4b` | Warm orange |
-| **Comments** | `#4e7d68` | Readable spruce / forest sage |
+| **Background** | `#0b2f20` | Windows Terminal Django background |
+| **Foreground** | `#f8f8f8` | Windows Terminal Django foreground |
+| **Selection / Active** | `#245032` | Selection background |
+| **Cursor** | `#336442` | Cursor color |
+| **Strings** | `#9df39f` | Cyan / mint green |
+| **Keywords / Statements** | `#ffe862` | Yellow |
+| **Functions / Methods** | `#ffff94` | Bright yellow / gold |
+| **Types / Classes** | `#73da70` | Bright green |
+| **Numbers / Constants** | `#41a83e` | Green |
+| **PreProc / Decorators** | `#fd6209` | Red |
+| **Special / Identifiers** | `#ff943b` | Bright red / warm orange |
+| **Comments** | `#568264` | Bright blue / forest sage |
 
 ## Features
 
