@@ -35,7 +35,8 @@ A deep forest green color scheme for Vim and Neovim based on the Windows Termina
 - **Built-in Terminal Colors**: Configured `g:terminal_ansi_colors` (Vim) and `g:terminal_color_*` (Neovim).
 - **Python & Django**: Tailored highlights for Python decorators, builtins, exceptions, and Django template tags/filters.
 - **Neovim Tree-sitter & LSP**: Complete Tree-sitter highlighting and LSP diagnostic highlights (`DiagnosticError`, `DiagnosticWarn`, etc.).
-- **Plugin Support**: GitGutter, Gitsigns, NERDTree, nvim-tree, Telescope.
+- **Statusline / Airline**: Built-in [vim-airline](https://github.com/vim-airline/vim-airline) theme matching normal, insert, visual, replace, command, and inactive modes.
+- **Plugin Support**: vim-airline, GitGutter, Gitsigns, NERDTree, nvim-tree, Telescope.
 
 ## Installation
 
@@ -83,6 +84,14 @@ In your `init.lua`:
 vim.opt.termguicolors = true
 vim.opt.background = "dark"
 vim.cmd("colorscheme django")
+```
+
+### Airline Theme
+
+When using [vim-airline](https://github.com/vim-airline/vim-airline), the `django` airline theme will be automatically loaded alongside `colorscheme django`. You can also set it explicitly:
+
+```vim
+let g:airline_theme = 'django'
 ```
 
 ## Configuration
