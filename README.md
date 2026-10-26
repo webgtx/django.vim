@@ -1,6 +1,6 @@
 # django.vim
 
-A deep forest green color scheme for Vim and Neovim based on the Windows Terminal **Django** palette.
+A deep forest green color scheme for Vim and Neovim based on the [Django](https://www.djangoproject.com/) palette.
 
 ## Palette
 
@@ -42,31 +42,8 @@ A deep forest green color scheme for Vim and Neovim based on the Windows Termina
 
 ### Native Vim 8 / 9 Packages
 ```bash
-git clone https://github.com/azolotarov/django.vim.git ~/.vim/pack/plugins/start/django.vim
+git clone https://github.com/webgtx/django.vim.git ~/.vim/pack/plugins/start/django.vim
 ```
-
-### vim-plug
-```vim
-Plug 'azolotarov/django.vim'
-```
-
-### lazy.nvim (Neovim)
-```lua
-{
-  "azolotarov/django.vim",
-  lazy = false,
-  priority = 1000,
-  config = function()
-    vim.cmd([[colorscheme django]])
-  end,
-}
-```
-
-### packer.nvim (Neovim)
-```lua
-use 'azolotarov/django.vim'
-```
-
 ## Usage
 
 In your `.vimrc`:
